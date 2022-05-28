@@ -11,8 +11,8 @@ module.exports = {
   ServerDeafen: true, //If you want bot to stay deafened
   DefaultVolume: 100, //Sets the default volume of the bot, You can change this number anywhere from 1 to 100
   CallbackURL: "/api/callback", //Discord API Callback url. Do not touch it if you don't know what you are doing. All you need to change for website to work is on line 20.
-  "24/7": false, //If you want the bot to be stay in the vc 24/7
-  CookieSecret: "Pikachu is cute", //A Secret like a password
+  "24/7": true, //If you want the bot to be stay in the vc 24/7
+  CookieSecret: "Secret", //A Secret like a password
   IconURL:
     "https://raw.githubusercontent.com/SCSZz/Beta/main/assets/aniyuki-nezuko-kamado-gif-59.gif", //URL of all embed author icons | Dont edit unless you dont need that Music CD Spining
   EmbedColor: "RANDOM", //Color of most embeds | Dont edit unless you want a specific color instead of a random one each time
